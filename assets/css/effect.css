@@ -1,0 +1,19 @@
+.headerLink:active  {
+    filter: brightness(0.75);
+}
+
+#headerButton:hover {
+    cursor: pointer;
+}
+
+#headerButton:active {
+    filter: brightness(0.8);
+}
+
+#mainButton:hover {
+    cursor: pointer;
+}
+
+#mainButton:active {
+    filter: brightness(0.9);
+}
