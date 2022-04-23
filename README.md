@@ -4,7 +4,7 @@
 
 >  O projeto é uma página de uma clínica veterinária.
 
-Confira a aplicação: kayke-fujinaka.github.io/dogtor/
+Confira a aplicação: https://kayke-fujinaka.github.io/Dogtor/
 
 ## :dart: Etapas ##
 
