@@ -1,6 +1,27 @@
+@mixin boundaries() {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@mixin flex($isAuto) {
+    @if $isAuto == flexJust {
+        align-items: center;
+        justify-content: center;
+    } @else if $isAuto == flexAlign {
+        display: flex;
+        align-items: center;
+    } @else {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+$primary-color: #515151;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }

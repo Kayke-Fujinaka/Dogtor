@@ -7,20 +7,17 @@
     }
 
     h1 {
-        display: flex;
-        justify-content: center;
+        @include flex(none);
     }
 
     h2 {
-        display: flex;
-        justify-content: center;
+        @include flex(none);
     }
 
     #mainButton {
-        display: flex;
+        @include flex(none);
+
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
     }
 }
 
@@ -38,8 +35,7 @@
     }
 
     #btn-mobile {
-        display: flex;
-        align-items: center;
+        @include flex(flexAlign);
         padding: .5rem 1rem;
         font-size: 1.5rem;
         border: none;
@@ -123,10 +119,8 @@
     }
 
     #mainButton {
-        display: flex;
+        @include flex(none);
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
     }
 }
 
