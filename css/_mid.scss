@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 75px 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #515151;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #515151;
+}
+
+p {
+    width: 500px;
+    margin: 30px auto 60px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#mainButton {
+    height: 64px;
+    width: 239px;
+    font-size: 24px;
+    font-weight: 700;
+    background: #ADFF00;
+    border: none;
+    border-radius: 20.5px;
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.3);
+
+    &:hover {
+        cursor: pointer;
+    }
+    
+    &:active {
+        filter: brightness(0.9);
+    }
+}
